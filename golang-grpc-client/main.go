@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	pb "github.com/TerminusDeus/golang-csharp-python-grpc/proto"
+	pb "golang-csharp-python-grpc/golang-grpc-client/pb"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

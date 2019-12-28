@@ -4,8 +4,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/TerminusDeus/golang-csharp-python-grpc/proto"
-
+	pb "golang-csharp-python-grpc/golang-grpc-server/pb"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 

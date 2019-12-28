@@ -1,9 +1,9 @@
-import os, sys
+import sys
 from os.path import dirname, join, abspath
 sys.path.insert(0, abspath(join(dirname(__file__), '..')))
 import grpc
-import proto.reverse_pb2_grpc as grpcpb2
-import proto.reverse_pb2 as pb2
+import pb.reverse_pb2_grpc as grpcpb2
+import pb.reverse_pb2 as pb2
 
 
 def run():
